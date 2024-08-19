@@ -1,34 +1,25 @@
+body {
+  background-image: url(Sky.jpg);
+}
+
 h1 {
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
-    background-color: aqua;
-    text-align: center;
+  background-color: yellow;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: blueviolet;
+  opacity: 100%;
+  display: flexbox;
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
+h2 {
+  text-align: center;
+  color: brown;
+  background-color: yellow;
 }
 
-.image {
-    width: 100%;
-    height: auto;
-}
-
-.text {
-    position: absolute;
-    top: 50%;
-    /* Điều chỉnh vị trí chữ theo chiều dọc */
-    left: 50%;
-    /* Điều chỉnh vị trí chữ theo chiều ngang */
-    transform: translate(-50%, -50%);
-    /* Giúp căn giữa chữ */
-    color: white;
-    /* Màu chữ */
-    font-size: 24px;
-    /* Kích thước chữ */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    /* Đổ bóng cho chữ để dễ đọc hơn */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  text-align: left;
 }
